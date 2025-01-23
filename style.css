@@ -17,8 +17,8 @@ h3{
 	margin: 0;
 }
 .main{
-	rgba(193, 219, 179, 0.7) !important;
-	width: 60%;
+	background-color: rgba(193, 219, 179, 0.7) !important;
+	width: 60% !important ;
 	margin: auto;
 	padding: 20px;
 }
