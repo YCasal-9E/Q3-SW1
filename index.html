@@ -41,16 +41,23 @@
 	</div>
 
 	<div class="container btn-container">
-		<button type="button" class="mt-4 btn btn-primary" onclick="
-		var dollar=58.61; 
-		var pesos=100; 
-		document.getElementById('value').innerHTML= pesos/dollar">Dollar</button>
+		<div class="button-column">
+			<button type="button" class="mt-4 btn btn-primary" onclick="
+			var dollar=58.61; 
+			var pesos=100; 
+			document.getElementById('value').innerHTML= pesos/dollar">Dollar</button>
+	
+			<button type="button" class="mt-4 btn btn-primary" onclick="
+			var pound=72.16; 
+			var pesos=100; 
+			document.getElementById('value').innerHTML= pesos/pound">Pound</button>
 
-		<button type="button" class="mt-4 btn btn-primary" onclick="
-		var pound=72.16; 
-		var pesos=100; 
-		document.getElementById('value').innerHTML= pesos/pound">Pound</button>
+		</div>
+
+		<button type="button" class="mt-4 btn btn-primary" onClick="window.location.reload()">REFRESH</button>
 	</div>
+
+	
 
 </div>
 </body>
