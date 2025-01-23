@@ -17,7 +17,7 @@ h3{
 	margin: 0;
 }
 .main{
-	background-color: #C1DBB3 !important;
+	rgba(193, 219, 179, 0.7) !important;
 	width: 60%;
 	margin: auto;
 }
