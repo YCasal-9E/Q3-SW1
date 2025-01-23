@@ -41,6 +41,12 @@ h3{
 	outline: none;
 	padding: 12px 20px !important; 
 }
+.btn-refresh{
+	background-color: #FBEFBA !important;
+	border: none !important;
+	outline: none;
+	padding: 12px 20px !important; 
+}
 .btn-container {
     display: flex;
     flex-direction: column; 
