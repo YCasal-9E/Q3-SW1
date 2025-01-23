@@ -32,7 +32,7 @@ h3{
 }
 .btn-primary{
 	background-color: #727D71 !important;
-	border: none;
+	border: none !important;
 	outline: none;
-	padding: 12px 20px;
+	padding: 12px 20px !important; 
 }
