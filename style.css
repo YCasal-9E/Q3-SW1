@@ -23,8 +23,9 @@ h3{
 }
 .cont-100{
 	background-color: #727D71 !important;
-	width:5px;
 	color: white ;
+	padding: 10px;
+	display: inline-block;
 }
 .container{
 	margin:auto;
