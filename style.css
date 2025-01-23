@@ -18,6 +18,8 @@ h3{
 }
 .main{
 	background-color: #C1DBB3 !important;
+	width: 60%;
+	margin: auto;
 }
 .cont-100{
 	background-color: #727D71 !important;
