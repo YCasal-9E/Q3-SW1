@@ -1,0 +1,33 @@
+body{
+	background-image: url(https://img.freepik.com/free-photo/light-olive-green-watercolor-texture-wallpaper_53876-95514.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Mulish !important;
+    color: #69626D !important;
+}
+h3{
+	text-align: center;
+
+}
+.header{
+	background-color: #727D71 !important;
+	color:white !important;
+	margin: 0;
+}
+.main{
+	background-color: #C1DBB3 !important;
+}
+.cont-100{
+	background-color: #727D71 !important;
+	width:5px;
+	color: white ;
+}
+.container{
+	margin:auto;
+	text-align: center;
+}
+.btn-primary{
+	background-color: #727D71 !important;
+}

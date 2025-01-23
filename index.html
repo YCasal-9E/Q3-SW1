@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SW1 | Currency Converter</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid text-center header mb-4 p-5">
+	<script type="text/javascript">
+		document.write("<h1>Currency Converter</h1>");
+	</script>
+</div>
+<div class="container main mb-4 p-4">
+
+	<script type="text/javascript">
+		document.write("<h3>Find out how much</h3>");
+	</script>
+
+	<div class="container container-fluid cont-100">
+		<h2 class="text-center p-4">100</h2>
+	</div>
+
+	<script type="text/javascript">
+		document.write("<h3>pesos is in other currencies</h3>");
+	</script>
+	
+	<img src="convert.gif" class="img-fluid mx-auto d-block mb-4">
+	<div class="container container-fluid cont-100">
+		<br /> <h3 id="value">?</h3>
+	</div>
+
+	<div class="container btn-container">
+		<button type="button" class="mt-4 btn btn-primary" onclick="
+		var dollar=58.61; 
+		var pesos=100; 
+		document.getElementById('value').innerHTML= pesos/dollar">Dollar</button>
+
+		<button type="button" class="mt-4 btn btn-primary" onclick="
+		var pound=72.16; 
+		var pesos=100; 
+		document.getElementById('value').innerHTML= pesos/pound">Pound</button>
+	</div>
+
+</div>
+</body>
+</html>
